@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan's Creative Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-family: 'Courier New', monospace;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .styled-button {
+            padding: 10px 20px;
+            border: 2px solid #333;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease-in-out;
+        }
+        .styled-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input {
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Ryan's Creative Hub</h1>
+    <p>This is a space where creativity meets technology. Dive into a world of innovation and expression.</p>
+    <p>Explore web development, AI, and digital marketing insights, all in one place.</p>
+    
+    <div class="image-container">
+        <img src="image.jpg" alt="Creative Vision" width="300">
+        <p>Embrace Innovation</p>
+    </div>
+    
+    <button class="styled-button">Explore More</button>
+    
+    <table>
+        <tr>
+            <th>Skill</th>
+            <th>Experience</th>
+            <th>Projects</th>
+        </tr>
+        <tr>
+            <td>Web Development</td>
+            <td>3 Years</td>
+            <td>10+</td>
+        </tr>
+        <tr>
+            <td>AI & Data Science</td>
+            <td>2 Years</td>
+            <td>5+</td>
+        </tr>
+        <tr>
+            <td>Digital Marketing</td>
+            <td>1 Year</td>
+            <td>8+</td>
+        </tr>
+    </table>
+    
+    <form>
+        <input type="text" placeholder="Enter Name" required>
+        <input type="email" placeholder="Enter Email" required>
+        <button type="submit" class="styled-button">Join Now</button>
+    </form>
+</body>
+</html>
